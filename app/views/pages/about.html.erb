@@ -1,0 +1,7 @@
+<h1>Welcome</h1>
+
+<% @restaurants.each do |restaurant| %>
+  <%= restaurant %>
+<% end %>
+
+<%= link_to "Chercher un resto", search_path %>
